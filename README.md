@@ -16,3 +16,5 @@ The File is Used to configure the Mumble Server itself.
 The Client VM has a GUI because the Mumble Client is not available without a gui
 
 After start up from Both Server and Client, connect the Client by starting the Mumble Program and adding the server with the IP 192.168.10.20
+
+A Guide on how to do this, you can find here https://www.mumble.com/support/how-to-connect-to-a-mumble-server.php
