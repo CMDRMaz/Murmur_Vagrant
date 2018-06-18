@@ -22,6 +22,7 @@ Vagrant.configure(2) do |config|
 		SHELL
 		
 	end
+# If you want to only install the Murmur server you can either Delete the Part from here to line 39 or comment it out of the config
 	config.vm.define "Mumble" do |mum|
 		mum.vm.box = "igorbrites/ubuntu-trusty64-gui"
 		mum.vm.synced_folder "C:/m300/devops/vagrant/murmur/sync/", "/etc/sync/"
